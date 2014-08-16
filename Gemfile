@@ -23,6 +23,13 @@ gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0',          group: :doc
 
+# manage content with content editor
+
+gem "ckeditor", :github => "galetahub/ckeditor"
+gem 'carrierwave', :github => "jnicklas/carrierwave"
+gem 'carrierwave-mongoid', :require => 'carrierwave/mongoid'
+gem 'mongoid-grid_fs', github: 'ahoward/mongoid-grid_fs'
+
 gem 'cancan'
 gem "rolify",        :git => "git://github.com/EppO/rolify.git"
 
