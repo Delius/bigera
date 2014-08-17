@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
   
+  resources :pages
+
   namespace :admin do
   get 'dashboard/index'
   end
